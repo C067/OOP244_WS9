@@ -1,0 +1,24 @@
+//Callum Dodge
+//100229178
+//Aug 1, 2018
+
+
+Reflection:
+
+1. No the source code will not compile because we can not put a template function
+into a .cpp file. The reason for this is because when we create a template function
+the templated is converted into a class implementaion. 
+
+2. Even if you move one of the templated functions into the main file ws9_lab.cpp either 
+above or below the main function the template will still not work. The reason for 
+this is because it is unidentifed; meaning, the function is represented as a class
+not as a implementation. 
+
+3. Yes this lab could have been done by overloading the functions but the only way for
+that to work is to have seperate overloaded functions to accept either integers as an argument 
+or a double as an arguement. The advantage of using a template function is that by using 
+<typename T> T can be used as a return value for any type. 
+
+4. Yes they are both equivalent because both methods convert the template into a class
+representing both methods as a class templates. Both methods are also used to represent/
+identifiy any type. 
